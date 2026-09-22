@@ -1,0 +1,133 @@
+name: Feature Request
+description: Request a new feature, enhancement, learning module, lab, or documentation improvement.
+title: "[FEATURE]: "
+labels:
+  - enhancement
+assignees:
+  - drewsElearning
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## GH-900 Feature Request
+
+        Thank you for contributing to the GH-900 eLearning repository.
+
+        Please provide as much information as possible to help evaluate, prioritize, and implement your request.
+
+  - type: dropdown
+    id: feature_category
+    attributes:
+      label: Feature Category
+      description: Select the category that best matches this request.
+      options:
+        - Learning Module
+        - Lab Exercise
+        - GitHub Fundamentals
+        - GitHub Actions
+        - GitHub Copilot
+        - GitHub Codespaces
+        - GitHub Security
+        - GitHub Administration
+        - Assessment / Quiz
+        - Documentation
+        - Accessibility
+        - Repository Enhancement
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: learning_objective
+    attributes:
+      label: Learning Objective
+      description: What learner outcome does this feature support?
+      placeholder: Demonstrate how GitHub Actions automate CI/CD workflows
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Feature Summary
+      description: Provide a brief summary of the requested feature.
+      placeholder: Describe the requested enhancement...
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_state
+    attributes:
+      label: Current State
+      description: Describe the current experience or content gap.
+      placeholder: Explain the existing limitation...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the desired outcome or implementation.
+      placeholder: Explain your proposed solution...
+    validations:
+      required: true
+
+  - type: textarea
+    id: learner_benefit
+    attributes:
+      label: Learner Benefit
+      description: How will learners benefit from this enhancement?
+      placeholder: This feature improves learner understanding by...
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Define what must be completed for this feature to be considered done.
+      value: |
+        - [ ] Content created
+        - [ ] Documentation updated
+        - [ ] Lab validated
+        - [ ] Screenshots added
+        - [ ] Accessibility review completed
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true
+
+  - type: dropdown
+    id: effort
+    attributes:
+      label: Estimated Effort
+      options:
+        - Small
+        - Medium
+        - Large
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Include supporting links, Microsoft Learn modules, GitHub Docs, screenshots, or examples.
+      placeholder: Add references here...
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched existing issues before creating this request.
+          required: true
+        - label: This request aligns with GH-900 learning objectives.
+          required: true
