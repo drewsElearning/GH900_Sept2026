@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="title desc">
+<title id="title">Create a new repository</title>
+<desc id="desc">A GitHub-style new repository form with a name, visibility choice, and create button.</desc>
+<rect width="760" height="420" rx="14" fill="#eaf5ed"/>
+<rect x="72" y="36" width="616" height="348" rx="10" fill="#fff" stroke="#dce3e9"/>
+<text x="108" y="84" fill="#182230" font-family="sans-serif" font-size="23" font-weight="700">Create a new repository</text>
+<text x="108" y="112" fill="#667384" font-family="sans-serif" font-size="13">Start with a clear name and a useful README.</text>
+<text x="108" y="153" fill="#182230" font-family="sans-serif" font-size="12" font-weight="700">Repository name</text>
+<rect x="108" y="165" width="544" height="38" rx="5" fill="#f7f9fb" stroke="#1f883d" stroke-width="2"/>
+<text x="124" y="190" fill="#182230" font-family="monospace" font-size="13">octo-lab</text>
+<text x="108" y="230" fill="#182230" font-family="sans-serif" font-size="12" font-weight="700">Visibility</text>
+<circle cx="123" cy="256" r="8" fill="#1f883d"/><circle cx="123" cy="256" r="3" fill="#fff"/>
+<text x="144" y="261" fill="#182230" font-family="sans-serif" font-size="13">Public</text>
+<circle cx="123" cy="287" r="8" fill="#fff" stroke="#a6b0ba"/><text x="144" y="292" fill="#667384" font-family="sans-serif" font-size="13">Private</text>
+<rect x="500" y="318" width="152" height="38" rx="5" fill="#1f883d"/>
+<text x="576" y="342" text-anchor="middle" fill="#fff" font-family="sans-serif" font-size="13" font-weight="700">Create repository</text>
+</svg>
