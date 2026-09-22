@@ -119,4 +119,53 @@ Suggestions that improve clarity, accessibility, accuracy, or learner practice a
 
 ---
 
+---
+
+# 📚 GH-900 eLearning Wiki
+
+Looking for detailed module content, learning objectives, labs, study guides, and supplemental resources?
+
+The **GH-900 eLearning Wiki** contains course modules aligned to the GitHub Foundations curriculum and serves as the primary learning hub for this repository.
+
+## Access the Wiki
+
+➡️ **[GH-900 Course Wiki Home](https://github.com/drewsElearning/GH900_Sept2026/wiki)**
+
+The wiki includes:
+
+- Course overview and learning path
+- Module-by-module study guides
+- GitHub concepts and terminology
+- Hands-on exercises and labs
+- Knowledge checks and review content
+- Certification preparation resources
+- Additional GitHub documentation and references
+
+## Current Learning Modules
+
+| Module | Topic |
+|----------|----------|
+| Module 1 | Introduction to Git and Version Control |
+| Module 2 | Introduction to GitHub |
+| Module 3 | Introduction to GitHub Products |
+| Module 4 | Configure Code Scanning on GitHub |
+| Module 5 | Introduction to GitHub Copilot |
+| Module 6 | Code with GitHub Codespaces |
+| Module 7 | Manage Your Work with GitHub Projects |
+| Module 8 | Communicate Using Markdown |
+| Module 9 | Contribute to an Open Source Project |
+| Module 10 | Manage an InnerSource Program |
+| Module 11 | Maintain a Secure Repository |
+| Module 12 | Introduction to GitHub Administration |
+| Module 13+ | Additional GitHub Foundations Learning Content |
+
+> **Tip:** Use the wiki navigation menu to browse modules sequentially or jump directly to a specific learning topic.
+
+### Start Learning
+
+👉 **[Open the GH-900 Wiki](https://github.com/drewsElearning/GH900_Sept2026/wiki)**
+
+---
+
+
 **GH-900 eLearning | Learn the foundations. Practice the workflow. Contribute with confidence.**
